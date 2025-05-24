@@ -1,0 +1,89 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: rgb(49, 7, 82);
+    color: aliceblue;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 7, 41);
+    padding: 2rem;
+    width:35%;
+}
+.user-container{
+    margin-top: 1.5rem;
+}
+.user-input-container{
+    margin-top: 1rem;
+}
+#user-input{
+    width:80%;
+    height:2rem;
+    border-radius: 0.5rem;
+}
+button{
+    height:2rem;
+    border-radius: 0.5rem;
+    width:15%;
+}
+.stats-container{
+    display: flex;
+    margin-top: 1rem;
+    gap:2rem;
+}
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.progress-item{
+    background-color: rgb(3, 42, 3);
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid rgb(59,7,41);
+    text-align: center;
+    color:rgb(219, 140, 140);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .circle{
+        background: conic-gradient(#299f5d var(--progress-degree, 0%), #283a2e 0%);
+    }
+    /* .progress-item {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    } */
+    
+    .easy-progress,
+    .medium-progress,
+    .hard-progress {
+        width: 100%;
+        height: 100%;
+        border-radius:50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: black;
+        background: conic-gradient(#ddd 0% 100%);
+    }
+    
