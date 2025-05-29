@@ -2,7 +2,8 @@
 
 **LeetMetric** is a web application designed to help users analyze their performance on [LeetCode](https://leetcode.com). Simply enter your LeetCode username and instantly visualize your problem-solving statistics across difficulty levels.
 
-
+#Screenshot
+![Image](https://github.com/user-attachments/assets/b0373840-afc3-40cb-a8fd-394c076f3088)
 
 ## 🚀 Features
 
